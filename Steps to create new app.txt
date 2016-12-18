@@ -1,7 +1,7 @@
 https://facebook.github.io/react-native/docs/getting-started.html
 
 --Start Android Studio -> AVD Manager -> select your aVD and click Start from action
---inside the directory where you want to create your new project:
+--inside the directory where you want to create your new project, open your command line:
 $ react-native init <Your new project name/it is also the registration name>
 $ cd <the new directory you created>
 $ react-native start
@@ -11,3 +11,5 @@ $ react-native run-android
 
 --If everything is set up correctly, you should see your new app running in your Android emulator shortly.
 --You'll find in the file index.android.js in the home directory of your project, the last line contians the App registry using the same name you used in the first command above
+
+--After you make changes, double click R, and it will load the new changes in the emulator
